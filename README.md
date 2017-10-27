@@ -14,17 +14,17 @@
 ## file edit
 ### goto resources/assets/sass/app.sass
 ### remove bootstrap and add bulma
-// Bulma
-@import "~bulma/bulma";
+    // Bulma
+    @import "~bulma/bulma";
 
 ### goto resources/assets/js/bootstrap.js
 ### remove the following
-require('bootstrap-sass');
+    require('bootstrap-sass');
 
 ## watch
     $npm run watch
 
 # How to install
 ## You have to Download/Clone the repository and install npm and composer
-$composer install
-$npm install
+    $composer install
+    $npm install
