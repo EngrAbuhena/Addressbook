@@ -25,6 +25,6 @@ require('bootstrap-sass');
     $npm run watch
 
 # How to install
-You have to Download/Clone the repository and install npm and composer
+## You have to Download/Clone the repository and install npm and composer
 $composer install
 $npm install
