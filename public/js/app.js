@@ -44270,12 +44270,64 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("section", { staticClass: "section" }, [
       _c("div", { staticClass: "container" }, [
-        _c("h1", { staticClass: "title" }, [_vm._v("Section")]),
+        _c("h1", { staticClass: "title" }, [_vm._v("About Me")]),
         _vm._v(" "),
         _c("h2", { staticClass: "subtitle" }, [
-          _vm._v("\n      A simple container to divide your page into "),
+          _vm._v("\n        A simple container to divide your page into "),
           _c("strong", [_vm._v("sections")]),
-          _vm._v(", like the one you're currently reading\n    ")
+          _vm._v(", like the one you're currently reading\n      ")
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "tile is-parent" }, [
+          _c("article", { staticClass: "tile is-child notification is-info" }, [
+            _c("p", { staticClass: "subtitle" }, [
+              _vm._v("Developer of this application")
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "column is-6 is-pulled-left" }, [
+              _c("figure", { staticClass: "image" }, [
+                _c("img", {
+                  attrs: {
+                    src:
+                      "https://avatars2.githubusercontent.com/u/23054213?v=4&s=460"
+                  }
+                })
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "column is-5 is-pulled-right" }, [
+              _c("p", { staticClass: "title" }, [_vm._v("Abuhena Rony")]),
+              _c("br"),
+              _vm._v(" "),
+              _c("p", { staticClass: "subtitle" }, [
+                _c("a", { attrs: { href: "https://mail.yahoo.com" } }, [
+                  _c("i", {
+                    staticClass: "fa fa-envelope",
+                    attrs: { "aria-hidden": "true" }
+                  })
+                ]),
+                _vm._v(" Email : abuhenarony@yahoo.com"),
+                _c("br"),
+                _vm._v(" "),
+                _c("a", { attrs: { href: "https://map.google.com" } }, [
+                  _c("i", {
+                    staticClass: "fa fa-location-arrow",
+                    attrs: { "aria-hidden": "true" }
+                  })
+                ]),
+                _vm._v(" Address : 58/GA/5/1 West Rajabazar, Dhaka 1207"),
+                _c("br"),
+                _vm._v(" "),
+                _c("a", { attrs: { href: "" } }, [
+                  _c("i", {
+                    staticClass: "fa fa-phone",
+                    attrs: { "aria-hidden": "true" }
+                  })
+                ]),
+                _vm._v(" Contact Number : 01516796274\n            ")
+              ])
+            ])
+          ])
         ])
       ])
     ])
