@@ -1,30 +1,30 @@
-#installation & setup
-##install laravel:
+# installation & setup
+## install laravel:
     $laravel new Phonebook
 
-##install vue-router:
+## install vue-router:
     $npm install vue-router --save
 
-##install bulma
+## install bulma
     $npm install bulma --save
 
-##install npm
+## install npm
     $npm install
 
-##file edit
-###goto resources/assets/sass/app.sass
-###remove bootstrap and add bulma
-// Bulma
-@import "~bulma/bulma";
+## file edit
+### goto resources/assets/sass/app.sass
+### remove bootstrap and add bulma
+    // Bulma
+    @import "~bulma/bulma";
 
-###goto resources/assets/js/bootstrap.js
-###remove the following
-require('bootstrap-sass');
+### goto resources/assets/js/bootstrap.js
+### remove the following
+    require('bootstrap-sass');
 
-##watch
+## watch
     $npm run watch
 
-#How to install
-You have to Download/Clone the repository and install npm and composer
-$composer install
-$npm install
+# How to install
+## You have to Download/Clone the repository and install npm and composer
+    $composer install
+    $npm install
